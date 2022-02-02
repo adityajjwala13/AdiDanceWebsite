@@ -1,0 +1,35 @@
+extends base.pug
+
+block scripts
+    script(src='/static/index.js')
+
+block styles
+    style
+        include ../static/style.css
+
+block content
+        section#introSection
+            div Welcome to Aditya's Dance Academy
+            div.small Eat,Sleep,Repeat
+
+        section#missionSection
+            h2 Our Mission
+            div.adi
+                div.card 
+                    h3 This is a para
+                div.card 
+                    h3 This is a para
+                div.card 
+                    h3 This is a para
+
+        section#sponsorsSection
+            h2 Our Sponsors
+            div#sponsors
+                div#sp2           
+                    img(src="/static/img/logo2.png", alt="No image")
+                div#sp3    
+                    img(src="/static/img/logo3.png", alt="No image")
+                div#sp4
+                    img(src="/static/img/logo4.png", alt="No image")
+                div#sp5    
+                    img(src="/static/img/logo5.png", alt="No image")

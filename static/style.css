@@ -1,0 +1,118 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Stick&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Ravi+Prakash&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+#logo{
+    display: flex;
+    color: white;
+    align-items: center;
+    position: relative;
+    top: 2.8px;
+    margin-right: 17px;
+    font-family: 'Stick', sans-serif;
+}
+#logo img{
+    height: 35px;
+    filter: invert(1);
+}
+#navbar{
+    background-color: #a7a7a7;
+    padding: 11px 13px;
+    font-weight: bold;
+}
+#navbar ul{
+    display: flex;
+    align-items: center;
+}
+#navbar li a{
+    text-decoration: none;
+    padding: 5px 25px;
+    font-family: 'Stick', sans-serif;
+    color: whitesmoke;
+}
+#navbar li a:hover{
+    color: red;
+}
+#navbar li{
+    list-style: none;
+}
+#introSection{
+color: white;
+font-family: 'Ravi Prakash', cursive;
+display: flex;
+flex-direction: column;
+justify-content: center;
+font-size: 2.5rem;
+align-items: center;
+background-color: chartreuse;
+height: 55vh;
+background-image: url(./static/img/dan.jpg);
+background-position: center;
+background-repeat: no-repeat;
+background-size: cover;
+padding-bottom: 10px;
+}
+.small{
+    font-size: 1.35rem;
+    position: relative;
+    bottom: 22px;
+}
+#missionSection{
+    height: 33vh;
+    background-color: rgb(232 209 213);
+}
+#missionSection h2{
+    text-align: center;
+    padding-top: 10px;
+}
+
+.card{
+    border: 2px solid black;
+    border-radius: 9px;
+    height: 152px;
+    width: 30%;
+    margin: 9px 22px;  
+    font-family: 'Ravi Prakash', cursive;
+}
+.card h3{
+    text-align: center;
+    margin-top: 11px;
+}
+.adi{
+    display: flex;
+    width: 1048px;
+    margin: auto;
+}
+#sponsorsSection{
+background-color: rgb(194, 107, 107);
+height: 40vh;
+}
+#sponsorsSection h2{
+text-align: center;
+padding-top: 10px;
+}
+#sponsors{
+    display: flex;
+    justify-content: center;
+}
+#sponsors div img
+{
+    /* border: 3px solid green; */
+    height: 209px;
+    width: 200px;
+    margin: 7px 29px;
+
+}
+#footer{
+background-color: black;
+height: 5.3vh;
+display: flex;
+justify-content: center;
+align-items: center;
+font-family: 'Stick', sans-serif;
+color: white;
+}

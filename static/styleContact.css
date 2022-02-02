@@ -1,0 +1,43 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Stick&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Ravi+Prakash&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+h1{
+    text-align: center;
+    margin: 3px 0;
+}
+.container{
+    min-height: 85vh;
+}
+.container h1{
+    font-family: 'Stick', sans-serif;
+    margin-bottom: 15px;
+}
+.myInput{
+width: 34%;
+text-align: center;
+margin: 3px;
+padding: 4px;
+border-radius: 7px;
+outline: none;
+border: 2px solid red;
+}
+.myForm{
+display: flex;
+flex-direction: column;
+align-items: center;
+}
+.btn{
+    font-size: 1rem;
+    border-radius: 5px;
+    outline: none;
+    padding: 4px;
+    margin: 3px;
+    border: 2px solid black;
+    font-weight: bold;
+    cursor: pointer;
+}
